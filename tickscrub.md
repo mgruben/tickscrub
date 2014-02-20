@@ -5,7 +5,7 @@ tickscrub looks for a view file in the given directory, then drops a finalOutput
 
 **2.** Scroll up until you see an element called &lt;tbody&gt;, and right-click that to "Copy as HTML."
 
-**3.** Paste into a file named "view" in the directory of your choice (Directories should be named according to the convention event/dd-mm-yyyy_hhmm in 24-hour format).
+**3.** Paste into a file named "view" in the directory of your choice (Directories should be named according to the convention event/dd_mm_yyyy_hhmm in 24-hour format).
 
 **4.** Repeat 1-3 for as many pages as there are listings (until a better way can be found).
 

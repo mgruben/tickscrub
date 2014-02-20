@@ -15,4 +15,7 @@ The command ```$ tickscrub ~/events/basketball/globetrotters```
 would look for ~/events/basketball/globetrotters/view, then through a combination of grep and sed
 would output ~/events/basketball/globetrotters/finalOutput, which should be more human-readable.
 
-If there's no view file, tickscrub probably throws some errors.
+If there's no view file, tickscrub throws the following errors:
+
+	bash: /finalOutput: Permission denied
+	sed: can't read /view: No such file or directory

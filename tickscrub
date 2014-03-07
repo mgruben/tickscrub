@@ -1,3 +1,3 @@
 tickscrub() {
-        sed -e 's/.span class/\n&/g' -e 's/.tr class/\n&/g' $1/view | grep 'sectionNa\|ticketRow\|ticketQt\|deliveryMet\|\"q\"\|aisle\|parking\|wheelchair' | sed '/\$/ a\ ' | sed -e 's/ EID//g' > $1/finalOutput
+        sed -e 's/.span class/\n&/g' -e 's/.tr class/\n&/g' $1/view | grep 'sectionNa\|ticketRow\|ticketQt\|deliveryMet\|\"q\"\|aisle\|parking\|wheelchair' | sed '/\$/ a\ ' | sed -e 's/ EID//g' -e 's/.\/span.*//g' -e 's/^<span class=//g' -e 's/>/,/g' > $1/finalOutput
 }

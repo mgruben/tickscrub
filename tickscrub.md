@@ -15,7 +15,8 @@ The command ```$ tickscrub ~/events/basketball/globetrotters```
 would look for ~/events/basketball/globetrotters/view, then through a combination of grep and sed
 would output ~/events/basketball/globetrotters/finalOutput, which should be more human-readable.
 
-Alternatively, the above could also be accomplished by```$ cd ~/events/basketball/globetrotters``` followed by ```$ tickscrub .```
+Alternatively, the above could also be accomplished by
+```$ cd ~/events/basketball/globetrotters``` followed by ```$ tickscrub .```
 
 If there's no view file, tickscrub throws the following errors:
 

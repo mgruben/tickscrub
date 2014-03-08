@@ -19,9 +19,9 @@ Alternatively, the above could also be accomplished by
 ####Output Format
 The columns, from left to right, would signify the following information:
 ```mysql
-sectionName | ticketRow | quantity | deliveryMethod | q | wheelchair | parking | aisle | obstructed | piggyback
+sectionName; ticketRow; quantity; deliveryMethod; q; wheelchair; parking; aisle; obstructed; piggyback;
 ```
-Each line contains a complete entry with all of the above fields, separated by a ';'
+Each line contains a complete entry with all of the above fields, and each field is separated by a ';'
 ####Troubleshooting
 If there's no view file, tickscrub throws the following errors:
 
